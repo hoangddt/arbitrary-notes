@@ -17,6 +17,11 @@
 # http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
 # set style:
 # sudo bash /etc/fonts/infinality/infctl.sh setstyle
+# install font Source Code Pro
+# http -d https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip
+# unzip/ copy to /usr/share/fonts or ~/.fonts
+# sudo cp OTF/*.otf /usr/share/fonts  
+# sudo fc-cache -f -v 
 
 
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
