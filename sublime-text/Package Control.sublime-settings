@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Babel",
+		"Behave Toolkit",
+		"Better CoffeeScript",
+		"Coffee Color Scheme",
+		"Emmet",
+		"Focus File on Sidebar",
+		"GitGutter",
+		"Jade",
+		"JSX",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"React Templates",
+		"WakaTime",
+		"zz File Icons"
+	]
+}
