@@ -2,6 +2,8 @@
 
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
+[App signing](https://developer.android.com/studio/publish/app-signing.html)
+
 [How to upload](https://support.google.com/googleplay/android-developer/answer/113469)
 
 [Build Setting fro gradle](https://developer.android.com/studio/build/build-variants.html)
@@ -20,3 +22,6 @@
 
 [Submit for review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html#//apple_ref/doc/uid/TP40011225-CH33)
 
+[How to Submit An App to Apple: From No Account to App Store – Part 1](https://www.raywenderlich.com/127936/submit-an-app-part-1)
+
+[How to Submit An App to Apple: From No Account to App Store – Part 1](https://www.raywenderlich.com/127939/submit-an-app-part-2)
