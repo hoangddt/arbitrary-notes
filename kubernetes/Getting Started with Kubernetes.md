@@ -77,3 +77,24 @@ Kubernetes networking
 - Pod IP addresses
     - All containers in a pod share a single IP
 - Load balances acreoss all pods in a **service**
+
+### Kubernetes Services
+
+Service Type:
+
+```
+$ kubectl expose rc hello-rc --name=hellp-svc --target-port=8080 --type=NodePort
+$ kubectl expose deployment/kubernetes-bootcamp --type=NodePort --port 8080
+```
+
+``` yaml
+apiVersion: v1
+kind: Service
+metadata:
+    name: hello-svc
+    labels:
+        app: hello-world
+
+```
+
+### Replication Controller
