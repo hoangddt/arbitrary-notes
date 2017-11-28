@@ -16,6 +16,16 @@
 adduser sammy
 usermod -aG sudo sammy
 
+# change to newly created user
+su - sammy
+
+```
+
+### Password authentication
+```
+sudo nano /etc/ssh/sshd_config
+# Change PasswordAuthentication no
+sudo systemctl reload sshd
 ```
 
 [Allowport](https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers)
