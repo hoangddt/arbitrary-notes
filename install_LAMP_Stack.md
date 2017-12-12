@@ -5,6 +5,7 @@ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
 
 sudo systemctl restart apache2
 sudo systemctl status apache2
+sudo apache2ctl configtest
 ```
 
 Mysql User and Privillige
@@ -15,3 +16,4 @@ CREATE USER wordpressuser@localhost IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser@localhost;
 FLUSH PRIVILEGES;
 ```
+
