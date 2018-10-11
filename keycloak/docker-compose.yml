@@ -1,0 +1,27 @@
+version: '3'
+
+volumes:
+  postgres-data:
+
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: hoangddt_keycloak_blank
+      POSTGRES_USER: hoangddt_keycloak
+      POSTGRES_PASSWORD: YaswUWLWGRNwKsAFFgtdmZdGjG7SAs
+  keycloak:
+    image: jboss/keycloak:4.5.0.Final
+    ports:
+      - 8080:8080
+    build: .            
+    environment:
+      DB_VENDOR: postgres
+      DB_USER: hoangddt_keycloak
+      DB_DATABASE: hoangddt_keycloak_blank
+      DB_PASSWORD: YaswUWLWGRNwKsAFFgtdmZdGjG7SAs
+      DB_ADDR: postgres
+      PROXY_ADDRESS_FORWARDING: "false"
+      DB_PORT: '5432'
